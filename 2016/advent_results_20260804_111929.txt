@@ -1,0 +1,891 @@
+================================================================================
+🎄 Advent of Code 2016 - Results 🎄
+Generated: 2026-08-04 11:19:29
+================================================================================
+
+
+================================================================================
+📅 Day 1
+================================================================================
+
+  Part 1 (day1p1.py)
+  ----------------------------------------------------------------------------
+  Status: ✓ SUCCESS (0.03s)
+  Output:
+    Starting Bunny HQ path simulation using instructions from: /var/www/projects/Advent-of-Code-Solutions/2016/Day-01-Challenge/input.txt
+
+
+==================================================
+SHORTEST PATH TO DESTINATION (MANHATTAN DISTANCE):
+SCORE: 262
+==================================================
+
+  Part 2 (day1p2.py)
+  ----------------------------------------------------------------------------
+  Status: ✓ SUCCESS (0.03s)
+  Output:
+    Starting Bunny HQ path simulation (Part Two - First Repeat) using instructions from: /var/www/projects/Advent-of-Code-Solutions/2016/Day-01-Challenge/input.txt
+
+
+==================================================
+PART TWO: SHORTEST PATH TO FIRST LOCATION VISITED TWICE:
+SCORE: 131
+==================================================
+
+================================================================================
+📅 Day 2
+================================================================================
+
+  Part 1 (day2p1.py)
+  ----------------------------------------------------------------------------
+  Status: ✓ SUCCESS (0.02s)
+  Output:
+    Starting simulation at button 5
+
+==================================================
+THE BATHROOM CODE:
+SCORE: 56983
+==================================================
+
+  Part 2 (day2p2.py)
+  ----------------------------------------------------------------------------
+  Status: ✓ SUCCESS (0.02s)
+  Output:
+    Starting simulation at button 5
+
+==================================================
+PART TWO: THE CORRECT BATHROOM CODE:
+SCORE: 8B8B1
+==================================================
+
+================================================================================
+📅 Day 3
+================================================================================
+
+  Part 1 (day3p1.py)
+  ----------------------------------------------------------------------------
+  Status: ✓ SUCCESS (0.03s)
+  Output:
+    Starting triangle validation using data from: /var/www/projects/Advent-of-Code-Solutions/2016/Day-03-Challenge/input.txt
+
+
+==================================================
+TOTAL NUMBER OF POSSIBLE TRIANGLES:
+SCORE: 993
+==================================================
+
+  Part 2 (day3p2.py)
+  ----------------------------------------------------------------------------
+  Status: ✓ SUCCESS (0.03s)
+  Output:
+    Starting triangle validation (Part Two - Column Reading) using data from: /var/www/projects/Advent-of-Code-Solutions/2016/Day-03-Challenge/input.txt
+
+
+==================================================
+PART TWO: TOTAL NUMBER OF POSSIBLE TRIANGLES (Reading by Column):
+SCORE: 1849
+==================================================
+
+================================================================================
+📅 Day 4
+================================================================================
+
+  Part 1 (day4p1.py)
+  ----------------------------------------------------------------------------
+  Status: ✓ SUCCESS (0.04s)
+  Output:
+    Starting room decryption and validation using data from: /var/www/projects/Advent-of-Code-Solutions/2016/Day-04-Challenge/input.txt
+
+
+==================================================
+SUM OF THE SECTOR IDS OF ALL REAL ROOMS:
+SCORE: 158835
+==================================================
+
+  Part 2 (day4p2.py)
+  ----------------------------------------------------------------------------
+  Status: ✓ SUCCESS (0.04s)
+  Output:
+    Starting room decryption and search (Part 2) using data from: /var/www/projects/Advent-of-Code-Solutions/2016/Day-04-Challenge/input.txt
+
+
+==================================================
+PART 1: SUM OF THE SECTOR IDS OF ALL REAL ROOMS:
+SCORE: 158835
+--------------------------------------------------
+PART 2: SECTOR ID OF THE NORTH POLE OBJECTS ROOM:
+SCORE: 993
+==================================================
+
+================================================================================
+📅 Day 5
+================================================================================
+
+  Part 1 (day5p1.py)
+  ----------------------------------------------------------------------------
+  Status: ✓ SUCCESS (8.50s)
+  Output:
+    Door ID: ffykfhsq
+Target Hash Prefix: 00000
+Starting password generation...
+[1/8] Found character 'c' at index 515840 (Hash: 00000c6c3f533fe4f7b0cb6d851185a8)
+[2/8] Found character '6' at index 844745 (Hash: 000006a94bb1c9322cbb56dd8564e76e)
+[3/8] Found character '6' at index 2968550 (Hash: 000006c8c9090315b0fb38154a947c86)
+[4/8] Found character '9' at index 4034943 (Hash: 00000970faef6424564944d5e8a59618)
+[5/8] Found character '7' at index 5108969 (Hash: 000007b2e0e83dfeade14ebe09f9e6a7)
+[6/8] Found character 'b' at index 5257971 (Hash: 00000bc5fdee6506b09262247ceb63f0)
+[7/8] Found character '5' at index 5830668 (Hash: 0000051079ac6b44fc3a5266a1630d42)
+[8/8] Found character '5' at index 5833677 (Hash: 00000537192966c3ee924306195faede)
+
+==================================================
+THE EIGHT-CHARACTER PASSWORD:
+SCORE: c6697b55
+==================================================
+
+  Part 2 (day5p2.py)
+  ----------------------------------------------------------------------------
+  Status: ✓ SUCCESS (37.56s)
+  Output:
+    Door ID: ffykfhsq
+Target Hash Prefix: 00000
+Starting password generation for 8 positions...
+[1/8] Inserted 'a' at position 6. Password: ______a_
+[2/8] Inserted 'b' at position 7. Password: ______ab
+[3/8] Inserted '1' at position 5. Password: _____1ab
+[4/8] Inserted '8' at position 0. Password: 8____1ab
+[5/8] Inserted '5' at position 3. Password: 8__5_1ab
+[6/8] Inserted 'c' at position 1. Password: 8c_5_1ab
+[7/8] Inserted 'd' at position 4. Password: 8c_5d1ab
+[8/8] Inserted '3' at position 2. Password: 8c35d1ab
+
+==================================================
+THE EIGHT-CHARACTER PASSWORD (Part Two):
+SCORE: 8c35d1ab
+==================================================
+
+================================================================================
+📅 Day 6
+================================================================================
+
+  Part 1 (day6p1.py)
+  ----------------------------------------------------------------------------
+  Status: ✓ SUCCESS (0.02s)
+  Output:
+    Starting error correction analysis using data from: /var/www/projects/Advent-of-Code-Solutions/2016/Day-06-Challenge/input.txt
+
+
+==================================================
+PART 1: THE ERROR-CORRECTED VERSION (Most Frequent Character):
+SCORE: afwlyyyq
+--------------------------------------------------
+PART 2: THE ORIGINAL MESSAGE (Least Common Character):
+SCORE: bhkzekao
+==================================================
+
+  Part 2 (day6p2.py)
+  ----------------------------------------------------------------------------
+  Status: ✓ SUCCESS (0.02s)
+  Output:
+    Starting error correction analysis (Part Two - Least Common) using data from: /var/www/projects/Advent-of-Code-Solutions/2016/Day-06-Challenge/input.txt
+
+
+==================================================
+PART TWO: THE ORIGINAL MESSAGE (Least Common Character):
+SCORE: bhkzekao
+==================================================
+
+================================================================================
+📅 Day 7
+================================================================================
+
+  Part 1 (day7p1.py)
+  ----------------------------------------------------------------------------
+  Status: ✓ SUCCESS (0.05s)
+  Output:
+    Starting TLS support analysis using data from: /var/www/projects/Advent-of-Code-Solutions/2016/Day-07-Challenge/input.txt
+
+
+==================================================
+TOTAL NUMBER OF IPs THAT SUPPORT TLS:
+SCORE: 105
+==================================================
+
+  Part 2 (day7p2.py)
+  ----------------------------------------------------------------------------
+  Status: ✓ SUCCESS (0.05s)
+  Output:
+    Starting SSL support analysis (Part 2) using data from: /var/www/projects/Advent-of-Code-Solutions/2016/Day-07-Challenge/input.txt
+
+
+==================================================
+PART TWO: TOTAL NUMBER OF IPs THAT SUPPORT SSL:
+SCORE: 258
+==================================================
+
+================================================================================
+📅 Day 8
+================================================================================
+
+  Part 1 (day8p1.py)
+  ----------------------------------------------------------------------------
+  Status: ✓ SUCCESS (0.03s)
+  Output:
+    Starting display simulation (6x50) using instructions from: /var/www/projects/Advent-of-Code-Solutions/2016/Day-08-Challenge/input.txt
+
+
+==================================================
+TOTAL NUMBER OF PIXELS THAT SHOULD BE LIT:
+SCORE: 116
+==================================================
+
+  Part 2 (day8p2.py)
+  ----------------------------------------------------------------------------
+  Status: ✓ SUCCESS (0.03s)
+  Output:
+    Starting display simulation (6x50) for visual output.
+
+--------------------------------------------------
+Part 1: Total Lit Pixels: 116
+---
+Final Code Display (Read vertically in 5x6 blocks):
+==================================================
+#..#.###...##....##.####.#....###...##..####.####.
+#..#.#..#.#..#....#.#....#....#..#.#..#.#.......#.
+#..#.#..#.#..#....#.###..#....###..#....###....#..
+#..#.###..#..#....#.#....#....#..#.#....#.....#...
+#..#.#....#..#.#..#.#....#....#..#.#..#.#....#....
+.##..#.....##...##..#....####.###...##..####.####.
+==================================================
+
+================================================================================
+📅 Day 9
+================================================================================
+
+  Part 1 (day9p1.py)
+  ----------------------------------------------------------------------------
+  Status: ✓ SUCCESS (0.03s)
+  Output:
+    Starting non-recursive file decompression analysis using data from: /var/www/projects/Advent-of-Code-Solutions/2016/Day-09-Challenge/input.txt
+
+
+==================================================
+DECOMPRESSED LENGTH OF THE FILE:
+SCORE: 183269
+==================================================
+
+  Part 2 (day9p2.py)
+  ----------------------------------------------------------------------------
+  Status: ✓ SUCCESS (0.03s)
+  Output:
+    Starting recursive file decompression analysis (Part 2) using data from: /var/www/projects/Advent-of-Code-Solutions/2016/Day-09-Challenge/input.txt
+
+
+==================================================
+PART TWO: DECOMPRESSED LENGTH OF THE FILE (Recursive Format):
+SCORE: 11317278863
+==================================================
+
+================================================================================
+📅 Day 10
+================================================================================
+
+  Part 1 (day10p1.py)
+  ----------------------------------------------------------------------------
+  Status: ✓ SUCCESS (0.02s)
+  Output:
+    Starting robot factory simulation for comparison 17 vs 61 using data from: /var/www/projects/Advent-of-Code-Solutions/2016/Day-10-Challenge/input.txt
+
+
+==================================================
+BOT RESPONSIBLE FOR COMPARING VALUE-61 WITH VALUE-17:
+SCORE: 113
+==================================================
+
+  Part 2 (day10p2.py)
+  ----------------------------------------------------------------------------
+  Status: ✓ SUCCESS (0.02s)
+  Output:
+    Starting robot factory simulation for Part 2 (Outputs) using data from: /var/www/projects/Advent-of-Code-Solutions/2016/Day-10-Challenge/input.txt
+
+
+==================================================
+PART 1: BOT RESPONSIBLE FOR COMPARING 61 WITH 17:
+SCORE: 113
+--------------------------------------------------
+PART 2: PRODUCT OF THE FIRST CHIP IN OUTPUTS 0, 1, AND 2:
+SCORE: 12803
+==================================================
+
+================================================================================
+📅 Day 11
+================================================================================
+
+  Part 1 (day11p1.py)
+  ----------------------------------------------------------------------------
+  Status: ✓ SUCCESS (0.38s)
+  Output:
+    Starting Radioisotope Facility BFS search (Target F4) with hardcoded 5-pair input.
+
+Number of item pairs: 5
+Goal state: E=4, Items=((3, 3), (3, 3), (3, 3), (3, 3), (3, 3))
+
+==================================================
+MINIMUM NUMBER OF STEPS REQUIRED TO BRING ALL OBJECTS TO F4:
+SCORE: 33
+==================================================
+
+  Part 2 (day11p2.py)
+  ----------------------------------------------------------------------------
+  Status: ✓ SUCCESS (2.37s)
+  Output:
+    Starting Radioisotope Facility BFS search (Target F4) with hardcoded 7-pair input (Part Two).
+
+Number of item pairs: 7
+Goal state: E=4, Items=((3, 3), (3, 3), (3, 3), (3, 3), (3, 3), (3, 3), (3, 3))
+
+==================================================
+MINIMUM NUMBER OF STEPS REQUIRED TO BRING ALL OBJECTS TO F4:
+SCORE: 57
+==================================================
+
+================================================================================
+📅 Day 12
+================================================================================
+
+  Part 1 (day12p1.py)
+  ----------------------------------------------------------------------------
+  Status: ✓ SUCCESS (0.94s)
+  Output:
+    Starting Assembunny simulation using data from: /var/www/projects/Advent-of-Code-Solutions/2016/Day-12-Challenge/input.txt
+
+Program loaded: 23 instructions.
+--------------------------------------------------
+Program Halted after processing.
+Final Registers: {'a': 318007, 'b': 196418, 'c': 0, 'd': 0}
+
+==================================================
+FINAL VALUE IN REGISTER 'a':
+SCORE: 318007
+==================================================
+
+  Part 2 (day12p2.py)
+  ----------------------------------------------------------------------------
+  Status: ✓ SUCCESS (26.68s)
+  Output:
+    Starting Assembunny simulation (Part Two: C=1) using data from: /var/www/projects/Advent-of-Code-Solutions/2016/Day-12-Challenge/input.txt
+
+Program loaded: 23 instructions.
+--------------------------------------------------
+Program Halted after processing.
+Final Registers: {'a': 9227661, 'b': 5702887, 'c': 0, 'd': 0}
+
+==================================================
+FINAL VALUE IN REGISTER 'a' (Starting C=1):
+SCORE: 9227661
+==================================================
+
+================================================================================
+📅 Day 13
+================================================================================
+
+  Part 1 (day13p1.py)
+  ----------------------------------------------------------------------------
+  Status: ✓ SUCCESS (0.02s)
+  Output:
+    Office Designer's Favorite Number: 1358
+Target: (31, 39). Starting at: (1, 1).
+
+==================================================
+FEWEST NUMBER OF STEPS REQUIRED TO REACH TARGET:
+SCORE: 96
+==================================================
+
+  Part 2 (day13p2.py)
+  ----------------------------------------------------------------------------
+  Status: ✓ SUCCESS (0.02s)
+  Output:
+    Office Designer's Favorite Number: 1358
+Target: Reachable area in at most 50 steps.
+
+==================================================
+TOTAL DISTINCT LOCATIONS REACHABLE IN AT MOST 50 STEPS:
+SCORE: 141
+==================================================
+
+================================================================================
+📅 Day 14
+================================================================================
+
+  Part 1 (day14p1.py)
+  ----------------------------------------------------------------------------
+  Status: ✓ SUCCESS (1.18s)
+  Output:
+    Targeting 64 keys using salt 'cuanljph'.
+[KEY 01] Index: 310 (Char: f). Hash: 8b16a3fff478a85de22947a1686a0e1d
+[KEY 02] Index: 399 (Char: f). Hash: 123fb3adb808aa4afff974c24bcf6213
+[KEY 03] Index: 442 (Char: f). Hash: efffd8652123110580ff7f0cf4e066e4
+[KEY 04] Index: 479 (Char: f). Hash: 30c7b991cb5e05d7bfffd4bfa2680f69
+[KEY 05] Index: 734 (Char: f). Hash: 42d264a67f78cc556674cfefff8166ca
+[KEY 06] Index: 847 (Char: f). Hash: 2282fd9bf262ea919e9cab6ae8fdfff4
+[KEY 07] Index: 927 (Char: f). Hash: fff5459a8c3b5a3cbb38cf0b3491feac
+[KEY 08] Index: 1210 (Char: f). Hash: 9a3cd1a7960ffff646bca473dab6bd61
+[KEY 09] Index: 1390 (Char: 5). Hash: 1e635c526c59555442f1bd3d7d8dfff6
+[KEY 10] Index: 1822 (Char: 5). Hash: 2b10bd40555dd91e207d77212c30456c
+[KEY 11] Index: 1855 (Char: 5). Hash: 14dcecd26907e143bf418a555b2d4df9
+[KEY 12] Index: 2080 (Char: 5). Hash: 8a158cb842b189055591834cd6db44e7
+[KEY 13] Index: 2112 (Char: 5). Hash: ba8c6c4f5550e6b7b7029178dd855f4f
+[KEY 14] Index: 2147 (Char: 5). Hash: 5d650ddef9f721053e559eb555f7b2c9
+[KEY 15] Index: 2153 (Char: 5). Hash: 5b748c6fe3cf6b5f5290d204f355560a
+[KEY 16] Index: 2174 (Char: 5). Hash: 27faeae8f1dc715550a8e98fe8f2611f
+[KEY 17] Index: 6226 (Char: b). Hash: 0884b05917a06b08febbb3e5b5bdbb51
+[KEY 18] Index: 6317 (Char: b). Hash: eeb0cbcd9cfb865c21033bbb9e1852c2
+[KEY 19] Index: 6415 (Char: b). Hash: ec4d69bbb445d36936dc1ae3edb90715
+[KEY 20] Index: 6502 (Char: b). Hash: b5ceac213bbbb01d6b0c3cc70a189ace
+[KEY 21] Index: 6660 (Char: 1). Hash: 9f370113f991a61af90362b5a5f21111
+[KEY 22] Index: 6689 (Char: 1). Hash: 781f26ef628111263cebc520ff6851a1
+[KEY 23] Index: 6697 (Char: b). Hash: 8581086ab1d3ae3af3667c4258bbb04c
+[KEY 24] Index: 6732 (Char: b). Hash: a90f2a21a44cee027eabbbe7aec35aca
+[KEY 25] Index: 6822 (Char: 1). Hash: 0834fa9d1c89924fcd50911172702a1c
+[KEY 26] Index: 7020 (Char: 1). Hash: 11184a30ef1f7327aae35c55871f525e
+[KEY 27] Index: 7060 (Char: 1). Hash: 34123aa1a138ada9f26f87dc2c931115
+[KEY 28] Index: 7096 (Char: 1). Hash: 15dfb1f12c0bf1df7111be417ab824ea
+[KEY 29] Index: 7293 (Char: 1). Hash: 8b26173c07f0e0c043dded4f11105fc7
+[KEY 30] Index: 7350 (Char: 1). Hash: 8596dbcd0281dc917f305176c5111983
+[KEY 31] Index: 7500 (Char: 1). Hash: 9308893b1003d103683111cfcfd4a14f
+[KEY 32] Index: 7612 (Char: 8). Hash: a7294bc84f5ddc888b4f3e0285c96202
+[KEY 33] Index: 7672 (Char: 8). Hash: b0f25af7c595fdc0ae824b9788806c50
+[KEY 34] Index: 7699 (Char: b). Hash: 9a22cbbbdab92ae7a9326f1b6259daf7
+[KEY 35] Index: 7770 (Char: b). Hash: a453f5624970840a2e0bd5bbb6fc0879
+[KEY 36] Index: 7887 (Char: b). Hash: 6c37641eea37bdcdb429bbb4abd3b23c
+[KEY 37] Index: 7986 (Char: 8). Hash: 6f4c9dbdf1888c232186bd23fa407569
+[KEY 38] Index: 8063 (Char: 8). Hash: 32b5c85319888cd7c51fec1e8c7043e2
+[KEY 39] Index: 8105 (Char: b). Hash: 48010a5bbb8416acc590612bcab199d9
+[KEY 40] Index: 8117 (Char: b). Hash: 95a8d18e69d3576957129bf7bbb2748c
+[KEY 41] Index: 8167 (Char: 8). Hash: df672ed4a8edeb342f7683823888b70c
+[KEY 42] Index: 8175 (Char: 8). Hash: ea2ba9d74e567d2794335888c98f1470
+[KEY 43] Index: 8199 (Char: 8). Hash: 90cc888c51235fcef251798ce2ad0bc8
+[KEY 44] Index: 8288 (Char: b). Hash: 82c3ef1d7d7450c65664d5bbb33f053c
+[KEY 45] Index: 8309 (Char: b). Hash: 88dc54428c74bbbdb8c23cc56608c005
+[KEY 46] Index: 8342 (Char: 8). Hash: 3e6da69888b411529a4fa80ae19d1f43
+[KEY 47] Index: 8386 (Char: b). Hash: 28c3f07df064fd2b3dff1a26bbb9d640
+[KEY 48] Index: 8412 (Char: 8). Hash: c79a87d6a03888e20f3edd5648da9893
+[KEY 49] Index: 8423 (Char: b). Hash: a0f71bbbad74496b983d14f04a46210f
+[KEY 50] Index: 8477 (Char: 8). Hash: d3212a9ba558362cfc4b5f919888acb0
+[KEY 51] Index: 11425 (Char: 9). Hash: 99987e91a0bb2f016635da27ad23ad7c
+[KEY 52] Index: 11494 (Char: 9). Hash: b9998f3972f48625a94b09ba7dfdc048
+[KEY 53] Index: 11607 (Char: 9). Hash: bf6b67accbf8a4290f0939986c39999c
+[KEY 54] Index: 11812 (Char: 9). Hash: 230999756deeebf0ca031db0bb86baed
+[KEY 55] Index: 12012 (Char: 9). Hash: 74f7fbb088999027962a54c51d8f8366
+[KEY 56] Index: 19730 (Char: 0). Hash: 68c3d6e8786310009fc7776d03b560f9
+[KEY 57] Index: 19860 (Char: 0). Hash: 5362c4a24eb000a5950ac83f83414856
+[KEY 58] Index: 19903 (Char: 0). Hash: dba0003c30c8c515e8e6612f666b8e72
+[KEY 59] Index: 20188 (Char: 0). Hash: 9608fc399e630cd08800d9dee2240002
+[KEY 60] Index: 20307 (Char: 0). Hash: 81105f13e892d4000f19af7daa960285
+[KEY 61] Index: 20351 (Char: 0). Hash: c557c97fb9aa000b4d6ecd85948d879f
+[KEY 62] Index: 23670 (Char: d). Hash: 5ea69b17fecaeb5dddd9b3865e0946af
+[KEY 63] Index: 23695 (Char: d). Hash: 755f087e680b15a3f57f64cddd946814
+[KEY 64] Index: 23769 (Char: d). Hash: 9a964691dfdddd39aab03eb33b26cf62
+
+==================================================
+INDEX THAT PRODUCES THE 64TH ONE-TIME PAD KEY:
+SCORE: 23769
+==================================================
+
+  Part 2 (day14p2.py)
+  ----------------------------------------------------------------------------
+  Status: ✓ SUCCESS (44.58s)
+  Output:
+    Targeting 64 keys using salt 'cuanljph' with 2016 stretching steps.
+[KEY 01] Index: 26 (Char: c). Hash: ccc534bf378df2f2201c1aa3cc571827
+[KEY 02] Index: 51 (Char: 5). Hash: 70d35e61a30877b714dc0d75d55523db
+[KEY 03] Index: 128 (Char: c). Hash: dbbce6b1cccd9b7e5b4428a670340777
+[KEY 04] Index: 179 (Char: 5). Hash: 17dfe2be59a4b555ed7de4b1930beabd
+[KEY 05] Index: 289 (Char: d). Hash: 164074ddd7821de6b3a03489e8023e8c
+[KEY 06] Index: 451 (Char: 5). Hash: 8b822cc4b3bb7d71f06cb3cd55584693
+[KEY 07] Index: 516 (Char: 5). Hash: 050585cdb0e25b230a55519a6c5dc040
+[KEY 08] Index: 5164 (Char: 8). Hash: 153aad63cb41f584490df83668888b11
+[KEY 09] Index: 5228 (Char: 8). Hash: 4493c5b2eb2960f81fb5810b888d156d
+[KEY 10] Index: 5688 (Char: 8). Hash: 508884405db2b8f9f69da1b2ccec2ae7
+[KEY 11] Index: 5739 (Char: 8). Hash: 08131b88c8eb28bd5607cc57f8888692
+[KEY 12] Index: 5820 (Char: 8). Hash: 0435239d0660604785ff882f88861807
+[KEY 13] Index: 5835 (Char: 8). Hash: 8f4b1c5a3009c438f268889180c338b1
+[KEY 14] Index: 5944 (Char: 8). Hash: a67df36d22bc09888e5692b8c19a9588
+[KEY 15] Index: 6571 (Char: 3). Hash: b71ba333e51e093a845766a30b66178e
+[KEY 16] Index: 6610 (Char: 3). Hash: 333b45099e2a737e860fb4e4b18ae361
+[KEY 17] Index: 6717 (Char: c). Hash: 7805ad4edf885a6ae1adecccbf6c6baf
+[KEY 18] Index: 6951 (Char: c). Hash: 7e0438eccffb87bd19a125191ccc5175
+[KEY 19] Index: 7154 (Char: c). Hash: 6e09cd172c32ee0ccc922d1ad561a29c
+[KEY 20] Index: 7206 (Char: c). Hash: 9cc6ccc37c0fac9076621cb0e1311dd9
+[KEY 21] Index: 7208 (Char: 3). Hash: 23af556217093335cb1c923d6e995bd4
+[KEY 22] Index: 7249 (Char: c). Hash: e948ccc2ef686014f79f5ddfc4dd6793
+[KEY 23] Index: 7252 (Char: c). Hash: e694ccc160ee3250e86dc274ea07e97b
+[KEY 24] Index: 7256 (Char: 3). Hash: 1462ee9c2913f733319a37633e6c7fb8
+[KEY 25] Index: 7302 (Char: 3). Hash: d47e6b536d92b6f3337ac9cf5d0336fb
+[KEY 26] Index: 7320 (Char: c). Hash: 44faccc4c95eacda27b38e8c48179c5a
+[KEY 27] Index: 7519 (Char: 3). Hash: 384b071fa6c0333651f1798665cc3b0f
+[KEY 28] Index: 14227 (Char: 8). Hash: 2bc11b4349441a4d93888ec89a9f1f06
+[KEY 29] Index: 14669 (Char: 1). Hash: a111fbdae3124f8bc964b7ac58f00953
+[KEY 30] Index: 14707 (Char: 8). Hash: 3559a2c888769b2c52563ee9fe257516
+[KEY 31] Index: 14795 (Char: 8). Hash: a5218884d54bdd933eaf35a81a339473
+[KEY 32] Index: 14809 (Char: 1). Hash: fe1110c44582870248c5575e75ab9a70
+[KEY 33] Index: 14859 (Char: 8). Hash: 0e4f4581fbba9391bcf9d4b6568886b0
+[KEY 34] Index: 14890 (Char: 1). Hash: a2c111c38b4b6b3e82b52b55b944d89b
+[KEY 35] Index: 14923 (Char: 8). Hash: ce04f6248054938c4f5132a3888fd31e
+[KEY 36] Index: 14979 (Char: 8). Hash: adb1945451e66b3e5038885d63d3b300
+[KEY 37] Index: 15046 (Char: 8). Hash: af988da3923b0d21e0f530888fe71ee7
+[KEY 38] Index: 15163 (Char: 2). Hash: 35289d0e299aab64459ba95222e28360
+[KEY 39] Index: 15170 (Char: 2). Hash: 897e062463222d70099ab1a2360bd341
+[KEY 40] Index: 15268 (Char: a). Hash: ed068fd0bc5a74d30431701aaa7c77ae
+[KEY 41] Index: 15304 (Char: 1). Hash: 2b3f77b111a792b8e7406da77f585e8d
+[KEY 42] Index: 15334 (Char: a). Hash: 9b1445a3553b1cadd9d4efe2aaaeca5e
+[KEY 43] Index: 15415 (Char: 1). Hash: 5397c2f99c7df62111a8af7df8edecee
+[KEY 44] Index: 15444 (Char: 1). Hash: a11157f1767f2cd88ef3a50d5c4c28ff
+[KEY 45] Index: 15496 (Char: 2). Hash: 167e722226fcc54b76ba11add75ea3fd
+[KEY 46] Index: 15498 (Char: 2). Hash: 1cdeab73f244182226292069c9a540c2
+[KEY 47] Index: 15594 (Char: 2). Hash: 6d208222192d22965b5fa6137c8eeed4
+[KEY 48] Index: 15658 (Char: 2). Hash: 754e7ce937f8c8b22205ee6f3286ee4b
+[KEY 49] Index: 15828 (Char: a). Hash: dd1fc7c87c08e0fc2d72aaaf54c777dc
+[KEY 50] Index: 15936 (Char: 2). Hash: 6474f3c66a59a9979b762221fdc672fa
+[KEY 51] Index: 15939 (Char: a). Hash: 287be51861ceccab8f1a47418abaaa2d
+[KEY 52] Index: 16025 (Char: 2). Hash: 46365deb3a66e7798222220021380730
+[KEY 53] Index: 16105 (Char: a). Hash: 2e44973bf215f9da29146bab4eaaa105
+[KEY 54] Index: 16771 (Char: 0). Hash: 20b5863f1fea68339c280100001daed2
+[KEY 55] Index: 16851 (Char: 0). Hash: cda5de4a0003930532ee9ed01d8508c4
+[KEY 56] Index: 16980 (Char: 0). Hash: aa943e9d2e9ce616670c0009f03a8284
+[KEY 57] Index: 17323 (Char: 0). Hash: 9caeac400019df55fe986ee3d1f41c07
+[KEY 58] Index: 20072 (Char: 5). Hash: d27dc555b0d9e2e93aa8656cf0c20420
+[KEY 59] Index: 20141 (Char: 5). Hash: 44fa55585c6f189d45f34c5ddac0a525
+[KEY 60] Index: 20331 (Char: 5). Hash: fd2fe555db85563fe4fcc1cba7b264e9
+[KEY 61] Index: 20357 (Char: 5). Hash: f9044daa2a391e5bdd6870555149ae05
+[KEY 62] Index: 20410 (Char: 5). Hash: 26eb555276336b686bc9c2fbdca50d43
+[KEY 63] Index: 20498 (Char: 5). Hash: c6278555b4a87a4a501037e1917d2697
+[KEY 64] Index: 20606 (Char: 5). Hash: ca70c390c37555b819ac0cfb82233a5a
+
+==================================================
+INDEX THAT PRODUCES THE 64TH ONE-TIME PAD KEY (STRETCHED):
+SCORE: 20606
+==================================================
+
+================================================================================
+📅 Day 15
+================================================================================
+
+  Part 1 (day15p1.py)
+  ----------------------------------------------------------------------------
+  Status: ✓ SUCCESS (0.03s)
+  Output:
+    Starting kinetic sculpture time optimization using data from: /var/www/projects/Advent-of-Code-Solutions/2016/Day-15-Challenge/input.txt
+
+
+==================================================
+FIRST TIME YOU CAN PRESS THE BUTTON TO GET A CAPSULE:
+SCORE: 400589
+==================================================
+
+  Part 2 (day15p2.py)
+  ----------------------------------------------------------------------------
+  Status: ✓ SUCCESS (0.03s)
+  Output:
+    Starting kinetic sculpture time optimization (Part Two) using data from: /var/www/projects/Advent-of-Code-Solutions/2016/Day-15-Challenge/input.txt
+
+Added new disc #7 (Positions: 11, Start: 0).
+
+==================================================
+PART TWO: FIRST TIME YOU CAN PRESS THE BUTTON TO GET A CAPSULE (New Disc Added):
+SCORE: 3045959
+==================================================
+
+================================================================================
+📅 Day 16
+================================================================================
+
+  Part 1 (day16p1.py)
+  ----------------------------------------------------------------------------
+  Status: ✓ SUCCESS (0.02s)
+  Output:
+    Initial State: 11011110011011101
+Target Disk Length: 272
+Generated Data Length: 272
+
+==================================================
+THE CORRECT CHECKSUM FOR DISK LENGTH 272:
+SCORE: 00000100100001100
+==================================================
+
+  Part 2 (day16p2.py)
+  ----------------------------------------------------------------------------
+  Status: ✓ SUCCESS (6.62s)
+  Output:
+    Initial State: 11011110011011101
+Target Disk Length: 35651584
+Generated Data Length: 35651584
+
+==================================================
+PART TWO: THE CORRECT CHECKSUM FOR DISK LENGTH 35651584:
+SCORE: 00011010100010010
+==================================================
+
+================================================================================
+📅 Day 17
+================================================================================
+
+  Part 1 (day17p1.py)
+  ----------------------------------------------------------------------------
+  Status: ✓ SUCCESS (0.03s)
+  Output:
+    Starting Vault Path Finder for passcode: pgflpeqp
+Start: (1, 1), Goal: (4, 4)
+
+==================================================
+SHORTEST PATH TO REACH THE VAULT:
+Length: 10
+PATH: RDRLDRDURD
+==================================================
+
+  Part 2 (day17p2.py)
+  ----------------------------------------------------------------------------
+  Status: ✓ SUCCESS (0.15s)
+  Output:
+    Starting Vault Path Finder for passcode: pgflpeqp
+Start: (1, 1), Goal: (4, 4)
+
+==================================================
+LENGTH OF THE LONGEST PATH TO REACH THE VAULT:
+SCORE: 596
+==================================================
+
+================================================================================
+📅 Day 18
+================================================================================
+
+  Part 1 (day18p1.py)
+  ----------------------------------------------------------------------------
+  Status: ✓ SUCCESS (0.03s)
+  Output:
+    Starting trap generation analysis using data from: /var/www/projects/Advent-of-Code-Solutions/2016/Day-18-Challenge/input.txt
+
+Starting simulation from initial row (Length: 100)
+Simulating a total of 40 rows.
+
+==================================================
+TOTAL NUMBER OF SAFE TILES IN 40 ROWS:
+SCORE: 2035
+==================================================
+
+  Part 2 (day18p2.py)
+  ----------------------------------------------------------------------------
+  Status: ✓ SUCCESS (18.68s)
+  Output:
+    Starting trap generation analysis using data from: /var/www/projects/Advent-of-Code-Solutions/2016/Day-18-Challenge/input.txt
+
+Starting simulation from initial row (Length: 100)
+Simulating a total of 400000 rows.
+
+==================================================
+TOTAL NUMBER OF SAFE TILES IN 400000 ROWS:
+SCORE: 20000577
+==================================================
+
+================================================================================
+📅 Day 19
+================================================================================
+
+  Part 1 (day19p1.py)
+  ----------------------------------------------------------------------------
+  Status: ✓ SUCCESS (0.02s)
+  Output:
+    Total number of Elves: 3014603
+
+==================================================
+THE ELF WHO GETS ALL THE PRESENTS:
+SCORE: 1834903
+==================================================
+
+  Part 2 (day19p2.py)
+  ----------------------------------------------------------------------------
+  Status: ✓ SUCCESS (0.02s)
+  Output:
+    Total number of Elves: 3014603
+
+==================================================
+PART TWO: THE ELF WHO GETS ALL THE PRESENTS (Stealing Across):
+SCORE: 1420280
+==================================================
+
+================================================================================
+📅 Day 20
+================================================================================
+
+  Part 1 (day20p1.py)
+  ----------------------------------------------------------------------------
+  Status: ✓ SUCCESS (0.04s)
+  Output:
+    Starting IP unblocker analysis (Max IP: 4294967295) using data from: /var/www/projects/Advent-of-Code-Solutions/2016/Day-20-Challenge/input.txt
+
+
+==================================================
+LOWEST-VALUED IP ADDRESS THAT IS NOT BLOCKED:
+SCORE: 31053880
+==================================================
+
+  Part 2 (day20p2.py)
+  ----------------------------------------------------------------------------
+  Status: ✓ SUCCESS (0.04s)
+  Output:
+    Starting IP unblocker analysis (Max IP: 4294967295) using data from: /var/www/projects/Advent-of-Code-Solutions/2016/Day-20-Challenge/input.txt
+
+
+==================================================
+PART 1: LOWEST-VALUED IP ADDRESS THAT IS NOT BLOCKED:
+SCORE: 31053880
+--------------------------------------------------
+PART 2: TOTAL NUMBER OF IP ADDRESSES THAT ARE ALLOWED:
+SCORE: 117
+==================================================
+
+================================================================================
+📅 Day 21
+================================================================================
+
+  Part 1 (day21p1.py)
+  ----------------------------------------------------------------------------
+  Status: ✓ SUCCESS (0.03s)
+  Output:
+    Starting password scrambler simulation using data from: /var/www/projects/Advent-of-Code-Solutions/2016/Day-21-Challenge/input.txt
+
+Initial Password: abcdefgh
+Total Instructions: 100
+
+==================================================
+RESULTING SCRAMBLED PASSWORD:
+SCORE: bfheacgd
+==================================================
+
+  Part 2 (day21p2.py)
+  ----------------------------------------------------------------------------
+  Status: ✓ SUCCESS (0.03s)
+  Output:
+    Starting password unscrambler simulation (Part 2) using data from: /var/www/projects/Advent-of-Code-Solutions/2016/Day-21-Challenge/input.txt
+
+Starting Unscrambling from: fbgdceah
+Total Instructions: 100
+
+==================================================
+UN-SCRAMBLED VERSION OF THE PASSWORD:
+SCORE: gcehdbfa
+==================================================
+
+================================================================================
+📅 Day 22
+================================================================================
+
+  Part 1 (day22p1.py)
+  ----------------------------------------------------------------------------
+  Status: ✓ SUCCESS (0.11s)
+  Output:
+    Starting viability check using disk usage data from: /var/www/projects/Advent-of-Code-Solutions/2016/Day-22-Challenge/input.txt
+
+
+==================================================
+TOTAL NUMBER OF VIABLE PAIRS OF NODES:
+SCORE: 860
+==================================================
+
+  Part 2 (day22p2.py)
+  ----------------------------------------------------------------------------
+  Status: ✓ SUCCESS (0.03s)
+  Output:
+    Solving for input: /var/www/projects/Advent-of-Code-Solutions/2016/Day-22-Challenge/input.txt
+Empty Slot Start: (27, 14)
+Goal Data Start: (34, 0)
+Wall Count: 14
+Phase 1 Steps (Reach Goal Neighbor): 34
+
+==================================================
+FEWEST NUMBER OF STEPS: 200
+==================================================
+
+================================================================================
+📅 Day 23
+================================================================================
+
+  Part 1 (day23p1.py)
+  ----------------------------------------------------------------------------
+  Status: ✓ SUCCESS (0.04s)
+  Output:
+    Starting Assembunny simulation (Input A=7) using data from: /var/www/projects/Advent-of-Code-Solutions/2016/Day-23-Challenge/input.txt
+
+Program loaded: 26 instructions.
+--------------------------------------------------
+Program Halted.
+Final Registers: {'a': 11130, 'b': 1, 'c': 0, 'd': 0}
+
+==================================================
+FINAL VALUE IN REGISTER 'a':
+SCORE: 11130
+==================================================
+
+  Part 2 (day23p2.py)
+  ----------------------------------------------------------------------------
+  Status: ✓ SUCCESS (0.03s)
+  Output:
+    Starting Assembunny simulation (Input A=12) using data from: /var/www/projects/Advent-of-Code-Solutions/2016/Day-23-Challenge/input.txt
+
+Program loaded: 26 instructions. Initial A=12
+
+==================================================
+FINAL VALUE IN REGISTER 'a' (Input A=12):
+SCORE: 479007690
+==================================================
+
+================================================================================
+📅 Day 24
+================================================================================
+
+  Part 1 (day24p1.py)
+  ----------------------------------------------------------------------------
+  Status: ✓ SUCCESS (0.15s)
+  Output:
+    Starting HVAC duct search (TSP) using map from: /var/www/projects/Advent-of-Code-Solutions/2016/Day-24-Challenge/input.txt
+
+
+==================================================
+FEWEST NUMBER OF STEPS REQUIRED TO VISIT EVERY LOCATION:
+SCORE: 428
+==================================================
+
+  Part 2 (day24p2.py)
+  ----------------------------------------------------------------------------
+  Status: ✓ SUCCESS (0.16s)
+  Output:
+    Starting HVAC duct search (Part 2 - Return to 0) using map from: /var/www/projects/Advent-of-Code-Solutions/2016/Day-24-Challenge/input.txt
+
+
+==================================================
+PART TWO: FEWEST STEPS REQUIRED TO VISIT ALL AND RETURN TO 0:
+SCORE: 680
+==================================================
+
+================================================================================
+📅 Day 25
+================================================================================
+
+  Final (day25Final.py)
+  ----------------------------------------------------------------------------
+  Status: ✓ SUCCESS (5.83s)
+  Output:
+    Searching for the lowest positive integer 'a'...
+
+==================================================
+LOWEST POSITIVE INTEGER FOR REGISTER 'a':
+SCORE: 196
+==================================================
+
+================================================================================
+📊 SUMMARY
+================================================================================
+  Total scripts run: 49
+  ✓ Successful: 49
+  ✗ Failed: 0
+  ⏱ Timeout: 0
+================================================================================

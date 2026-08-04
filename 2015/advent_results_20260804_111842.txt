@@ -1,0 +1,785 @@
+================================================================================
+🎄 Advent of Code 2015 - Results 🎄
+Generated: 2026-08-04 11:18:42
+================================================================================
+
+
+================================================================================
+📅 Day 1
+================================================================================
+
+  Part 1 (day1p1.py)
+  ----------------------------------------------------------------------------
+  Status: ✓ SUCCESS (0.02s)
+  Output:
+    Starting floor calculation using instructions from: /var/www/projects/Advent-of-Code-Solutions/2015/Day-01-Challenge/input.txt
+
+
+==================================================
+FINAL FLOOR NUMBER:
+SCORE: 280
+==================================================
+
+  Part 2 (day1p2.py)
+  ----------------------------------------------------------------------------
+  Status: ✓ SUCCESS (0.03s)
+  Output:
+    Starting floor calculation using instructions from: /var/www/projects/Advent-of-Code-Solutions/2015/Day-01-Challenge/input.txt
+
+
+==================================================
+PART 1: FINAL FLOOR NUMBER:
+SCORE: 280
+--------------------------------------------------
+PART 2: POSITION OF FIRST BASEMENT ENTRY (Floor -1):
+SCORE: 1797
+==================================================
+
+================================================================================
+📅 Day 2
+================================================================================
+
+  Part 1 (day2p1.py)
+  ----------------------------------------------------------------------------
+  Status: ✓ SUCCESS (0.02s)
+  Output:
+    Starting wrapping paper calculation using dimensions from: /var/www/projects/Advent-of-Code-Solutions/2015/Day-02-Challenge/input.txt
+
+
+==================================================
+TOTAL SQUARE FEET OF WRAPPING PAPER TO ORDER:
+SCORE: 1598415
+==================================================
+
+  Part 2 (day2p2.py)
+  ----------------------------------------------------------------------------
+  Status: ✓ SUCCESS (0.03s)
+  Output:
+    Starting wrapping supply calculation using dimensions from: /var/www/projects/Advent-of-Code-Solutions/2015/Day-02-Challenge/input.txt
+
+
+==================================================
+TOTAL SQUARE FEET OF WRAPPING PAPER (Part 1):
+SCORE: 1598415
+--------------------------------------------------
+TOTAL FEET OF RIBBON (Part 2):
+SCORE: 3812909
+==================================================
+
+================================================================================
+📅 Day 3
+================================================================================
+
+  Part 1 (day3p1.py)
+  ----------------------------------------------------------------------------
+  Status: ✓ SUCCESS (0.02s)
+  Output:
+    Starting Santa's path simulation on: /var/www/projects/Advent-of-Code-Solutions/2015/Day-03-Challenge/input.txt
+
+
+==================================================
+TOTAL NUMBER OF HOUSES RECEIVING AT LEAST ONE PRESENT:
+SCORE: 2081
+==================================================
+
+  Part 2 (day3p2.py)
+  ----------------------------------------------------------------------------
+  Status: ✓ SUCCESS (0.03s)
+  Output:
+    Starting Santa and Robo-Santa path simulation on: /var/www/projects/Advent-of-Code-Solutions/2015/Day-03-Challenge/input.txt
+
+
+==================================================
+PART TWO: TOTAL NUMBER OF HOUSES RECEIVING AT LEAST ONE PRESENT:
+SCORE: 2341
+==================================================
+
+================================================================================
+📅 Day 4
+================================================================================
+
+  Part 1 (day4p1.py)
+  ----------------------------------------------------------------------------
+  Status: ✓ SUCCESS (0.51s)
+  Output:
+    Secret Key: iwrupvqb
+Target Hash Prefix: 00000
+Starting brute-force search...
+
+==================================================
+LOWEST POSITIVE NUMBER PRODUCING 5 ZEROES:
+SCORE: 346386
+==================================================
+
+  Part 2 (day4p2.py)
+  ----------------------------------------------------------------------------
+  Status: ✓ SUCCESS (14.19s)
+  Output:
+    Secret Key: iwrupvqb
+Target Hash Prefix: 000000
+Starting brute-force search...
+
+==================================================
+LOWEST POSITIVE NUMBER PRODUCING 6 ZEROES:
+SCORE: 9958218
+==================================================
+
+================================================================================
+📅 Day 5
+================================================================================
+
+  Part 1 (day5p1.py)
+  ----------------------------------------------------------------------------
+  Status: ✓ SUCCESS (0.03s)
+  Output:
+    Starting nice string validation using data from: /var/www/projects/Advent-of-Code-Solutions/2015/Day-05-Challenge/input.txt
+
+
+==================================================
+TOTAL NUMBER OF NICE STRINGS:
+SCORE: 258
+==================================================
+
+  Part 2 (day5p2.py)
+  ----------------------------------------------------------------------------
+  Status: ✓ SUCCESS (0.03s)
+  Output:
+    Starting nice string validation (Part Two) using data from: /var/www/projects/Advent-of-Code-Solutions/2015/Day-05-Challenge/input.txt
+
+
+==================================================
+PART TWO: TOTAL NUMBER OF NICE STRINGS (New Rules):
+SCORE: 53
+==================================================
+
+================================================================================
+📅 Day 6
+================================================================================
+
+  Part 1 (day6p1.py)
+  ----------------------------------------------------------------------------
+  Status: ✓ SUCCESS (4.02s)
+  Output:
+    Starting light grid simulation (1000x1000) using instructions from: /var/www/projects/Advent-of-Code-Solutions/2015/Day-06-Challenge/input.txt
+
+
+==================================================
+TOTAL NUMBER OF LIGHTS THAT ARE LIT:
+SCORE: 400410
+==================================================
+
+  Part 2 (day6p2.py)
+  ----------------------------------------------------------------------------
+  Status: ✓ SUCCESS (5.54s)
+  Output:
+    Starting light grid simulation (Part Two - Brightness) using instructions from: /var/www/projects/Advent-of-Code-Solutions/2015/Day-06-Challenge/input.txt
+
+
+==================================================
+PART TWO: TOTAL BRIGHTNESS OF ALL LIGHTS COMBINED:
+SCORE: 15343601
+==================================================
+
+================================================================================
+📅 Day 7
+================================================================================
+
+  Part 1 (day7p1.py)
+  ----------------------------------------------------------------------------
+  Status: ✓ SUCCESS (0.03s)
+  Output:
+    Starting circuit analysis for wire 'a' using instructions from: /var/www/projects/Advent-of-Code-Solutions/2015/Day-07-Challenge/input.txt
+
+
+==================================================
+SIGNAL ULTIMATELY PROVIDED TO WIRE 'a':
+SCORE: 956
+==================================================
+
+  Part 2 (day7p2.py)
+  ----------------------------------------------------------------------------
+  Status: ✓ SUCCESS (0.03s)
+  Output:
+    Starting circuit analysis for wire 'a' using instructions from: /var/www/projects/Advent-of-Code-Solutions/2015/Day-07-Challenge/input.txt
+
+--- PART 1: Finding initial signal for wire 'a' ---
+Signal on wire 'a' (Part 1): 956
+
+--- PART 2: Overriding wire 'b' and re-solving ---
+Wire 'b' overridden to: 956
+New signal on wire 'a' (Part 2): 40149
+
+==================================================
+NEW SIGNAL ULTIMATELY PROVIDED TO WIRE 'a' (Part 2):
+SCORE: 40149
+==================================================
+
+================================================================================
+📅 Day 8
+================================================================================
+
+  Part 1 (day8p1.py)
+  ----------------------------------------------------------------------------
+  Status: ✓ SUCCESS (0.02s)
+  Output:
+    Reading from: /var/www/projects/Advent-of-Code-Solutions/2015/Day-08-Challenge/input.txt
+
+Testing with examples:
+""                   → code: 2, memory: 0
+"abc"                → code: 5, memory: 3
+"aaa\"aaa"           → code: 10, memory: 7
+"\x27"               → code: 6, memory: 1
+
+==================================================
+PART 1: Code Chars - Memory Chars
+Answer: 1342
+--------------------------------------------------
+==================================================
+
+  Part 2 (day8p2.py)
+  ----------------------------------------------------------------------------
+  Status: ✓ SUCCESS (0.03s)
+  Output:
+    Reading from: /var/www/projects/Advent-of-Code-Solutions/2015/Day-08-Challenge/input.txt
+
+Testing with examples:
+""                   → code: 2, memory: 0
+"abc"                → code: 5, memory: 3
+"aaa\"aaa"           → code: 10, memory: 7
+"\x27"               → code: 6, memory: 1
+
+==================================================
+--------------------------------------------------
+PART 2: Encoded Chars - Code Chars
+Part 2 Answer: 2074
+==================================================
+
+================================================================================
+📅 Day 9
+================================================================================
+
+  Part 1 (day9p1.py)
+  ----------------------------------------------------------------------------
+  Status: ✓ SUCCESS (0.10s)
+  Output:
+    Starting route analysis using data from: /var/www/projects/Advent-of-Code-Solutions/2015/Day-09-Challenge/input.txt
+
+Total locations to visit: 8 (['AlphaCentauri', 'Arbre', 'Faerun', 'Norrath', 'Snowdin', 'Straylight', 'Tambi', 'Tristram'])
+Total routes to check: 40320
+
+==================================================
+DISTANCE OF THE SHORTEST ROUTE:
+SCORE: 251
+==================================================
+
+  Part 2 (day9p2.py)
+  ----------------------------------------------------------------------------
+  Status: ✓ SUCCESS (0.12s)
+  Output:
+    Starting route analysis using data from: /var/www/projects/Advent-of-Code-Solutions/2015/Day-09-Challenge/input.txt
+
+Total locations to visit: 8 (['AlphaCentauri', 'Arbre', 'Faerun', 'Norrath', 'Snowdin', 'Straylight', 'Tambi', 'Tristram'])
+Total routes to check: 40320
+
+==================================================
+PART 1: DISTANCE OF THE SHORTEST ROUTE:
+SCORE: 251
+--------------------------------------------------
+PART 2: DISTANCE OF THE LONGEST ROUTE:
+SCORE: 898
+==================================================
+
+================================================================================
+📅 Day 10
+================================================================================
+
+  Part 1 (day10p1.py)
+  ----------------------------------------------------------------------------
+  Status: ✓ SUCCESS (0.32s)
+  Output:
+    Initial Length: 10
+After iteration 05: Length = 38
+After iteration 10: Length = 118
+After iteration 15: Length = 428
+After iteration 20: Length = 1622
+After iteration 25: Length = 6162
+After iteration 30: Length = 23248
+After iteration 35: Length = 87402
+After iteration 40: Length = 329356
+
+==================================================
+LENGTH OF THE RESULT AFTER 40 ITERATIONS:
+SCORE: 329356
+==================================================
+
+  Part 2 (day10p2.py)
+  ----------------------------------------------------------------------------
+  Status: ✓ SUCCESS (4.32s)
+  Output:
+    Initial Length: 10
+After iteration 05: Length = 38
+After iteration 10: Length = 118
+After iteration 15: Length = 428
+After iteration 20: Length = 1622
+After iteration 25: Length = 6162
+After iteration 30: Length = 23248
+After iteration 35: Length = 87402
+After iteration 40: Length = 329356
+After iteration 45: Length = 1239364
+After iteration 50: Length = 4666278
+
+==================================================
+LENGTH OF THE RESULT AFTER 50 ITERATIONS:
+SCORE: 4666278
+==================================================
+
+================================================================================
+📅 Day 11
+================================================================================
+
+  Part 1 (day11p1.py)
+  ----------------------------------------------------------------------------
+  Status: ✓ SUCCESS (0.67s)
+  Output:
+    Starting password generation for input: cqjxjnds
+
+
+==================================================
+SANTA'S NEXT VALID PASSWORD:
+SCORE: cqjxxyzz
+==================================================
+
+  Part 2 (day11p2.py)
+  ----------------------------------------------------------------------------
+  Status: ✓ SUCCESS (2.47s)
+  Output:
+    Starting password generation for input: cqjxxyzz
+
+
+==================================================
+SANTA'S NEXT VALID PASSWORD:
+SCORE: cqkaabcc
+==================================================
+
+================================================================================
+📅 Day 12
+================================================================================
+
+  Part 1 (day12p1.py)
+  ----------------------------------------------------------------------------
+  Status: ✓ SUCCESS (0.03s)
+  Output:
+    Starting JSON number summation using data from: /var/www/projects/Advent-of-Code-Solutions/2015/Day-12-Challenge/input.txt
+
+
+==================================================
+SUM OF ALL NUMBERS IN THE DOCUMENT:
+SCORE: 119433
+==================================================
+
+  Part 2 (day12p2.py)
+  ----------------------------------------------------------------------------
+  Status: ✓ SUCCESS (0.03s)
+  Output:
+    Starting JSON number summation (Part Two Filter) using data from: /var/www/projects/Advent-of-Code-Solutions/2015/Day-12-Challenge/input.txt
+
+
+==================================================
+PART TWO: SUM OF ALL NUMBERS (Excluding 'red' objects):
+SCORE: 68466
+==================================================
+
+================================================================================
+📅 Day 13
+================================================================================
+
+  Part 1 (day13p1.py)
+  ----------------------------------------------------------------------------
+  Status: ✓ SUCCESS (0.15s)
+  Output:
+    Starting optimal seating analysis using data from: /var/www/projects/Advent-of-Code-Solutions/2015/Day-13-Challenge/input.txt
+
+Total guests: 8 (['Alice', 'Bob', 'Carol', 'David', 'Eric', 'Frank', 'George', 'Mallory'])
+Total arrangements to check: 40320
+
+==================================================
+TOTAL CHANGE IN HAPPINESS FOR THE OPTIMAL SEATING ARRANGEMENT:
+SCORE: 618
+==================================================
+
+  Part 2 (day13p2.py)
+  ----------------------------------------------------------------------------
+  Status: ✓ SUCCESS (1.25s)
+  Output:
+    Starting optimal seating analysis (Part Two) using data from: /var/www/projects/Advent-of-Code-Solutions/2015/Day-13-Challenge/input.txt
+
+Total guests (including Me): 9 (['Alice', 'Bob', 'Carol', 'David', 'Eric', 'Frank', 'George', 'Mallory', 'Me'])
+Total arrangements to check: 362880
+
+==================================================
+PART TWO: TOTAL CHANGE IN HAPPINESS (Including Me):
+SCORE: 601
+==================================================
+
+================================================================================
+📅 Day 14
+================================================================================
+
+  Part 1 (day14p1.py)
+  ----------------------------------------------------------------------------
+  Status: ✓ SUCCESS (0.03s)
+  Output:
+    Starting Reindeer Race simulation for 2503 seconds using data from: /var/www/projects/Advent-of-Code-Solutions/2015/Day-14-Challenge/input.txt
+
+
+==================================================
+DISTANCE TRAVELED BY THE WINNING REINDEER:
+SCORE: 2660
+==================================================
+
+  Part 2 (day14p2.py)
+  ----------------------------------------------------------------------------
+  Status: ✓ SUCCESS (0.04s)
+  Output:
+    Starting Reindeer Race simulation for 2503 seconds (Point System) using data from: /var/www/projects/Advent-of-Code-Solutions/2015/Day-14-Challenge/input.txt
+
+
+==================================================
+PART TWO: POINTS ACCUMULATED BY THE WINNING REINDEER:
+SCORE: 1256
+==================================================
+
+================================================================================
+📅 Day 15
+================================================================================
+
+  Part 1 (day15p1.py)
+  ----------------------------------------------------------------------------
+  Status: ✓ SUCCESS (0.83s)
+  Output:
+    Starting cookie recipe optimization using data from: /var/www/projects/Advent-of-Code-Solutions/2015/Day-15-Challenge/input.txt
+
+Total ingredients: 4
+Searching for optimal mix summing to 100 teaspoons...
+
+==================================================
+TOTAL SCORE OF THE HIGHEST-SCORING COOKIE:
+SCORE: 13882464
+==================================================
+
+  Part 2 (day15p2.py)
+  ----------------------------------------------------------------------------
+  Status: ✓ SUCCESS (0.28s)
+  Output:
+    Starting cookie recipe optimization (Part Two) using data from: /var/www/projects/Advent-of-Code-Solutions/2015/Day-15-Challenge/input.txt
+
+Total ingredients: 4
+Searching for optimal mix summing to 100 teaspoons 
+WITH A CALORIE TOTAL OF EXACTLY 500...
+
+==================================================
+PART TWO: TOTAL SCORE OF THE HIGHEST-SCORING COOKIE (500 Calories):
+SCORE: 11171160
+==================================================
+
+================================================================================
+📅 Day 16
+================================================================================
+
+  Part 1 (day16p1.py)
+  ----------------------------------------------------------------------------
+  Status: ✓ SUCCESS (0.03s)
+  Output:
+    Starting Aunt Sue analysis using data from: /var/www/projects/Advent-of-Code-Solutions/2015/Day-16-Challenge/input.txt
+
+Total Aunt Sues loaded: 500
+
+==================================================
+THE NUMBER OF THE SUE THAT GOT YOU THE GIFT:
+SCORE: 103
+==================================================
+
+  Part 2 (day16p2.py)
+  ----------------------------------------------------------------------------
+  Status: ✓ SUCCESS (0.03s)
+  Output:
+    Starting Aunt Sue analysis (Part Two - Range Filter) using data from: /var/www/projects/Advent-of-Code-Solutions/2015/Day-16-Challenge/input.txt
+
+Total Aunt Sues loaded: 500
+
+==================================================
+PART TWO: THE NUMBER OF THE REAL AUNT SUE (Range Filter):
+SCORE: 405
+==================================================
+
+================================================================================
+📅 Day 17
+================================================================================
+
+  Part 1 (day17p1.py)
+  ----------------------------------------------------------------------------
+  Status: ✓ SUCCESS (0.07s)
+  Output:
+    Starting eggnog combination analysis for 150 liters using data from: /var/www/projects/Advent-of-Code-Solutions/2015/Day-17-Challenge/input.txt
+
+
+==================================================
+TOTAL NUMBER OF COMBINATIONS THAT FIT EXACTLY 150 LITERS:
+SCORE: 4372
+==================================================
+
+  Part 2 (day17p2.py)
+  ----------------------------------------------------------------------------
+  Status: ✓ SUCCESS (0.03s)
+  Output:
+    Starting eggnog combination analysis for 150 liters using data from: /var/www/projects/Advent-of-Code-Solutions/2015/Day-17-Challenge/input.txt
+
+
+==================================================
+PART 1: TOTAL NUMBER OF COMBINATIONS THAT FIT EXACTLY 150 LITERS:
+SCORE: 32
+--------------------------------------------------
+PART 2: NUMBER OF WAYS TO ACHIEVE THE MINIMUM CONTAINER COUNT:
+SCORE: 4
+==================================================
+
+================================================================================
+📅 Day 18
+================================================================================
+
+  Part 1 (day18p1.py)
+  ----------------------------------------------------------------------------
+  Status: ✓ SUCCESS (2.23s)
+  Output:
+    Starting light animation simulation (Part 1) using data from: /var/www/projects/Advent-of-Code-Solutions/2015/Day-18-Challenge/input.txt
+
+Grid Size: 100x100. Simulating 100 steps.
+
+==================================================
+TOTAL NUMBER OF LIGHTS ON AFTER 100 STEPS:
+SCORE: 1061
+==================================================
+
+  Part 2 (day18p2.py)
+  ----------------------------------------------------------------------------
+  Status: ✓ SUCCESS (2.39s)
+  Output:
+    Starting light animation simulation (Part 2 - Stuck Corners) using data from: /var/www/projects/Advent-of-Code-Solutions/2015/Day-18-Challenge/input.txt
+
+Grid Size: 100x100. Simulating 100 steps.
+WARNING: Four corner lights are enforced ON.
+
+==================================================
+PART TWO: TOTAL NUMBER OF LIGHTS ON AFTER 100 STEPS (Stuck Corners):
+SCORE: 1006
+==================================================
+
+================================================================================
+📅 Day 19
+================================================================================
+
+  Part 1 (day19p1.py)
+  ----------------------------------------------------------------------------
+  Status: ✓ SUCCESS (0.03s)
+  Output:
+    Starting molecule calibration analysis using data from: /var/www/projects/Advent-of-Code-Solutions/2015/Day-19-Challenge/input.txt
+
+Starting molecule: CRnSiRnCaPTiMgYCaPTiRnFArSiThFArCaSiThSiThPBCaCaSiRnSiRnTiTiMgArPBCaPMgYPTiRnFArFArCaSiRnBPMgArPRnCaPTiRnFArCaSiThCaCaFArPBCaCaPTiTiRnFArCaSiRnSiAlYSiThRnFArArCaSiRnBFArCaCaSiRnSiThCaCaCaFYCaPTiBCaSiThCaSiThPMgArSiRnCaPBFYCaCaFArCaCaCaCaSiThCaSiRnPRnFArPBSiThPRnFArSiRnMgArCaFYFArCaSiRnSiAlArTiTiTiTiTiTiTiRnPMgArPTiTiTiBSiRnSiAlArTiTiRnPMgArCaFYBPBPTiRnSiRnMgArSiThCaFArCaSiThFArPRnFArCaSiRnTiBSiThSiRnSiAlYCaFArPRnFArSiThCaFArCaCaSiThCaCaCaSiRnPRnCaFArFYPMgArCaPBCaPBSiRnFYPBCaFArCaSiAl
+Total replacement rules: 43
+
+
+==================================================
+TOTAL NUMBER OF DISTINCT MOLECULES CREATED IN ONE STEP:
+SCORE: 518
+==================================================
+
+  Part 2 (day19p2.py)
+  ----------------------------------------------------------------------------
+  Status: ✓ SUCCESS (0.03s)
+  Output:
+    Starting molecule fabrication analysis (Part 2 - Fewest Steps) using data from: /var/www/projects/Advent-of-Code-Solutions/2015/Day-19-Challenge/input.txt
+
+Target reduction: CRnSiRnCaPTiMgYCaPTiRnFArSiThFArCaSiThSiThPBCaCaSiRnSiRnTiTiMgArPBCaPMgYPTiRnFArFArCaSiRnBPMgArPRnCaPTiRnFArCaSiThCaCaFArPBCaCaPTiTiRnFArCaSiRnSiAlYSiThRnFArArCaSiRnBFArCaCaSiRnSiThCaCaCaFYCaPTiBCaSiThCaSiThPMgArSiRnCaPBFYCaCaFArCaCaCaCaSiThCaSiRnPRnFArPBSiThPRnFArSiRnMgArCaFYFArCaSiRnSiAlArTiTiTiTiTiTiTiRnPMgArPTiTiTiBSiRnSiAlArTiTiRnPMgArCaFYBPBPTiRnSiRnMgArSiThCaFArCaSiThFArPRnFArCaSiRnTiBSiThSiRnSiAlYCaFArPRnFArSiThCaFArCaCaSiThCaCaCaSiRnPRnCaFArFYPMgArCaPBCaPBSiRnFYPBCaFArCaSiAl -> e
+
+==================================================
+PART TWO: FEWEST NUMBER OF STEPS TO GO FROM 'e' TO MEDICINE:
+SCORE: 200
+==================================================
+
+================================================================================
+📅 Day 20
+================================================================================
+
+  Part 1 (day20p1.py)
+  ----------------------------------------------------------------------------
+  Status: ✓ SUCCESS (2.12s)
+  Output:
+    Target Presents: 34000000
+Simulating up to house number 800000 using Sieve method...
+
+==================================================
+LOWEST HOUSE NUMBER TO GET AT LEAST TARGET PRESENTS:
+SCORE: 786240
+==================================================
+
+  Part 2 (day20p2.py)
+  ----------------------------------------------------------------------------
+  Status: ✓ SUCCESS (1.68s)
+  Output:
+    Target Presents: 34000000
+Presents Factor: 11x, Delivery Limit: 50 houses.
+Simulating up to house number 1200000 using Sieve method...
+
+==================================================
+PART TWO: LOWEST HOUSE NUMBER TO GET AT LEAST TARGET PRESENTS:
+SCORE: 831600
+==================================================
+
+================================================================================
+📅 Day 21
+================================================================================
+
+  Part 1 (day21p1.py)
+  ----------------------------------------------------------------------------
+  Status: ✓ SUCCESS (0.03s)
+  Output:
+    Starting RPG Battle Solver (Min Cost) using data from: /var/www/projects/Advent-of-Code-Solutions/2015/Day-21-Challenge/input.txt
+
+
+==================================================
+LEAST AMOUNT OF GOLD TO SPEND AND STILL WIN:
+SCORE: 121
+==================================================
+
+  Part 2 (day21p2.py)
+  ----------------------------------------------------------------------------
+  Status: ✓ SUCCESS (0.03s)
+  Output:
+    Starting RPG Battle Solver (Min Win, Max Lose) using data from: /var/www/projects/Advent-of-Code-Solutions/2015/Day-21-Challenge/input.txt
+
+
+==================================================
+PART 1: LEAST AMOUNT OF GOLD TO SPEND AND WIN:
+SCORE: 121
+--------------------------------------------------
+PART 2: MOST AMOUNT OF GOLD TO SPEND AND STILL LOSE:
+SCORE: 201
+==================================================
+
+================================================================================
+📅 Day 22
+================================================================================
+
+  Part 1 (day22p1.py)
+  ----------------------------------------------------------------------------
+  Status: ✓ SUCCESS (0.06s)
+  Output:
+    Starting Wizard Battle Solver (Least Mana) using data from: /var/www/projects/Advent-of-Code-Solutions/2015/Day-22-Challenge/input.txt
+
+
+==================================================
+LEAST AMOUNT OF MANA SPENT TO WIN THE FIGHT:
+SCORE: 1824
+==================================================
+
+  Part 2 (day22p2.py)
+  ----------------------------------------------------------------------------
+  Status: ✓ SUCCESS (0.05s)
+  Output:
+    Starting Wizard Battle Solver (Part 2 - Hard Mode) using data from: /var/www/projects/Advent-of-Code-Solutions/2015/Day-22-Challenge/input.txt
+
+
+==================================================
+PART TWO: LEAST AMOUNT OF MANA SPENT TO WIN (HARD MODE):
+SCORE: 1937
+==================================================
+
+================================================================================
+📅 Day 23
+================================================================================
+
+  Part 1 (day23p1.py)
+  ----------------------------------------------------------------------------
+  Status: ✓ SUCCESS (0.03s)
+  Output:
+    Starting assembly simulation using data from: /var/www/projects/Advent-of-Code-Solutions/2015/Day-23-Challenge/input.txt
+
+Program loaded: 48 instructions.
+--------------------------------------------------
+Program Halted after processing.
+
+==================================================
+FINAL VALUE IN REGISTER 'b':
+SCORE: 255
+==================================================
+
+  Part 2 (day23p2.py)
+  ----------------------------------------------------------------------------
+  Status: ✓ SUCCESS (0.03s)
+  Output:
+    Starting assembly simulation (Part Two: A=1) using data from: /var/www/projects/Advent-of-Code-Solutions/2015/Day-23-Challenge/input.txt
+
+Program loaded: 48 instructions.
+--------------------------------------------------
+Program Halted after processing.
+
+==================================================
+PART TWO: FINAL VALUE IN REGISTER 'b' (Starting A=1):
+SCORE: 334
+==================================================
+
+================================================================================
+📅 Day 24
+================================================================================
+
+  Part 1 (day24p1.py)
+  ----------------------------------------------------------------------------
+  Status: ✓ SUCCESS (0.14s)
+  Output:
+    Starting Sleigh Balancer analysis using data from: /var/www/projects/Advent-of-Code-Solutions/2015/Day-24-Challenge/input.txt
+
+Total packages: 28. Total weight: 1548.
+Target weight per group: 516
+
+==================================================
+QUANTUM ENTANGLEMENT OF THE FIRST GROUP IN THE IDEAL CONFIGURATION:
+SCORE: 11266889531
+==================================================
+
+  Part 2 (day24p2.py)
+  ----------------------------------------------------------------------------
+  Status: ✓ SUCCESS (0.05s)
+  Output:
+    Starting Sleigh Balancer analysis (Part Two) using data from: /var/www/projects/Advent-of-Code-Solutions/2015/Day-24-Challenge/input.txt
+
+Total packages: 28. Total weight: 1548.
+Target weight per group: 387 (for 4 groups)
+
+==================================================
+PART TWO: QUANTUM ENTANGLEMENT OF THE FIRST GROUP (Four Groups):
+SCORE: 77387711
+==================================================
+
+================================================================================
+📅 Day 25
+================================================================================
+
+  Final (day25Final.py)
+  ----------------------------------------------------------------------------
+  Status: ✓ SUCCESS (2.42s)
+  Output:
+    Target: Row 2978, Column 3083 is the 18361853-th code in the sequence.
+
+==================================================
+CODE TO GIVE THE MACHINE (Row 2978, Col 3083):
+SCORE: 2650453
+==================================================
+
+================================================================================
+📊 SUMMARY
+================================================================================
+  Total scripts run: 49
+  ✓ Successful: 49
+  ✗ Failed: 0
+  ⏱ Timeout: 0
+================================================================================

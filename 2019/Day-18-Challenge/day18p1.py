@@ -1,0 +1,104 @@
+import os
+import sys
+import heapq
+from collections import deque
+
+
+def solve_maze(grid, starts):
+    h = len(grid)
+    w = len(grid[0])
+    keys = {}
+    for y in range(h):
+        for x in range(w):
+            c = grid[y][x]
+            if 'a' <= c <= 'z':
+                keys[c] = (x, y)
+
+    key_index = {k: i for i, k in enumerate(sorted(keys))}
+    total_keys = len(keys)
+    full_mask = (1 << total_keys) - 1
+
+    # BFS from a position: find distances to each key and the doors on the way
+    def bfs(src):
+        door_bit = 0 if grid[src[1]][src[0]].isupper() else 0
+        dist = {src: (0, 0)}  # (dist, door_mask)
+        q = deque([src])
+        while q:
+            x, y = q.popleft()
+            d, dm = dist[(x, y)]
+            for dx, dy in ((1, 0), (-1, 0), (0, 1), (0, -1)):
+                nx, ny = x + dx, y + dy
+                c = grid[ny][nx]
+                if c == '#':
+                    continue
+                ndm = dm
+                if c.isupper():
+                    ndm |= 1 << key_index[c.lower()]
+                if (nx, ny) not in dist:
+                    dist[(nx, ny)] = (d + 1, ndm)
+                    q.append((nx, ny))
+        out = {}
+        for k, pos in keys.items():
+            if pos in dist:
+                out[k] = dist[pos]
+        return out
+
+    # distance graph from each key and each start
+    graph = {}
+    for s_i, s in enumerate(starts):
+        graph[('@' + str(s_i),)] = {}
+        for k, (d, dm) in bfs(s).items():
+            graph[('@' + str(s_i),)][k] = (d, dm)
+    for k, pos in keys.items():
+        graph[(k,)] = {}
+        for k2, (d, dm) in bfs(pos).items():
+            if k2 != k:
+                graph[(k,)][k2] = (d, dm)
+
+    # Dijkstra: state = (robot positions, mask)
+    start_pos = tuple('@' + str(i) for i in range(len(starts)))
+    heap = [(0, start_pos, 0)]
+    seen = {(start_pos, 0): 0}
+
+    while heap:
+        cost, poss, mask = heapq.heappop(heap)
+        if seen.get((poss, mask), 10**18) != cost:
+            continue
+        if mask == full_mask:
+            return cost
+        for r in range(len(poss)):
+            pos = poss[r]
+            for k2, (d, dm) in graph[(pos,)].items():
+                ki = key_index[k2]
+                if mask & (1 << ki):
+                    continue
+                if dm & ~mask:
+                    continue  # a door on the way is still locked
+                new_mask = mask | (1 << ki)
+                new_poss = list(poss)
+                new_poss[r] = k2
+                new_poss = tuple(new_poss)
+                nc = cost + d
+                if nc < seen.get((new_poss, new_mask), 10**18):
+                    seen[(new_poss, new_mask)] = nc
+                    heapq.heappush(heap, (nc, new_poss, new_mask))
+    return None
+
+
+def main():
+    input_file = sys.argv[1] if len(sys.argv) > 1 else os.path.join(
+        os.path.dirname(os.path.abspath(__file__)), "input.txt")
+
+    with open(input_file, 'r') as f:
+        grid = [list(line.rstrip('\n')) for line in f]
+
+    for y in range(len(grid)):
+        for x in range(len(grid[0])):
+            if grid[y][x] == '@':
+                start = (x, y)
+
+    print(solve_maze(grid, [start]))
+
+
+if __name__ == "__main__":
+    main()
